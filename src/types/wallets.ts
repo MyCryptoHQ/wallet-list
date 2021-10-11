@@ -1,4 +1,4 @@
-export enum WALLET_CONNECTIVITY {
+export enum WalletConnectivity {
   WEB3 = 'web3',
   MYCRYPTO = 'mycrypto',
   LEDGER = 'ledger',
@@ -10,13 +10,13 @@ export enum WALLET_CONNECTIVITY {
   MIGRATE_NONCUSTODIAL = 'migrate-noncustodial'
 }
 
-export enum WALLET_TYPES {
+export enum WalletTypes {
   WALLET = 'wallet',
   INTERFACE = 'interface',
   EXCHANGE = 'exchange'
 }
 
-export enum WALLET_TAGS {
+export enum WalletTags {
   HARDWARE = 'Hardware',
   WEB = 'Web',
   WEB3 = 'Web3',
@@ -35,10 +35,10 @@ export interface IWallet {
   name: string;
   id: string;
   desc: string;
-  type?: WALLET_TYPES;
-  connectivity: WALLET_CONNECTIVITY;
+  type?: WalletTypes;
+  connectivity: WalletConnectivity;
   icon?: string;
-  tags?: WALLET_TAGS[];
+  tags?: WalletTags[];
   urls: {
     website?: string;
     support?: string;
