@@ -5,6 +5,5 @@
     "declarationDir": "typings",
     "emitDeclarationOnly": true
   },
-  "include": ["src"],
-  "exclude": ["src/**/*.test.{ts,tsx}", "src/**/__mocks__/**/*", "./.jest/**/*"]
+  "include": ["src"]
 }

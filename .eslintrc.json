@@ -3,7 +3,6 @@
   "parser": "@typescript-eslint/parser",
   "extends": ["eslint:recommended", "eslint-config-prettier"],
   "plugins": ["eslint-plugin-import"],
-  "ignorePatterns": "jest.config.ts",
   "rules": {
     "comma-dangle": ["error", "never"],
     "curly": "error",
@@ -83,15 +82,6 @@
           "jsx": true
         }
       }
-    },
-    {
-      "files": ["*.test.ts", "*.test.tsx", "jest.config.ts"],
-      "env": {
-        "node": true,
-        "jest": true
-      },
-      "extends": ["plugin:eslint-plugin-jest/recommended", "plugin:eslint-plugin-jest/style"],
-      "plugins": ["eslint-plugin-jest"]
     }
   ]
 }
