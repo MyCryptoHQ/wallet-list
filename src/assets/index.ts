@@ -72,3 +72,4 @@ export { default as kucoin } from './kucoin.svg';
 export { default as bitstamp } from './bitstamp.svg';
 export { default as okex } from './okex.svg';
 export { default as coinone } from './coinone.svg';
+export { default as defaultWallet } from './default.svg';
