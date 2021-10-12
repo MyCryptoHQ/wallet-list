@@ -1,34 +1,34 @@
 export enum WalletConnectivity {
-  WEB3 = 'web3',
-  MYCRYPTO = 'mycrypto',
-  LEDGER = 'ledger',
-  TREZOR = 'trezor',
-  WALLET_CONNECT = 'wallet-connect',
-  INTERFACE = 'interface',
-  VIEW_ONLY = 'view-only',
-  MIGRATE_CUSTODIAL = 'migrate-custodial',
-  MIGRATE_NONCUSTODIAL = 'migrate-noncustodial'
+  Web3 = 'web3',
+  MyCrypto = 'mycrypto',
+  Ledger = 'ledger',
+  Trezor = 'trezor',
+  WalletConnect = 'wallet-connect',
+  Interface = 'interface',
+  ViewOnly = 'view-only',
+  MigrateCustodial = 'migrate-custodial',
+  MigrateNonCustodial = 'migrate-noncustodial'
 }
 
 export enum WalletTypes {
-  WALLET = 'wallet',
-  INTERFACE = 'interface',
-  EXCHANGE = 'exchange'
+  Wallet = 'wallet',
+  Interface = 'interface',
+  Exchange = 'exchange'
 }
 
 export enum WalletTags {
-  HARDWARE = 'Hardware',
-  WEB = 'Web',
-  WEB3 = 'Web3',
-  ENTERPRISE = 'Enterprise',
-  TELEGRAM = 'Telegram',
-  BROWSER_BASED = 'Browser Based',
-  MOBILE = 'Mobile',
-  DESKTOP = 'Desktop',
-  EXCHANGE = 'Exchange',
-  WALLET = 'Wallet',
-  WALLET_CONNECT = 'Wallet Connect',
-  BRIDGE = 'Bridge'
+  Hardware = 'Hardware',
+  Web = 'Web',
+  Web3 = 'Web3',
+  Enterprise = 'Enterprise',
+  Telegram = 'Telegram',
+  BrowserBased = 'Browser Based',
+  Mobile = 'Mobile',
+  Desktop = 'Desktop',
+  Exchange = 'Exchange',
+  Wallet = 'Wallet',
+  WalletConnect = 'Wallet Connect',
+  Bridge = 'Bridge'
 }
 
 export interface IWallet {
