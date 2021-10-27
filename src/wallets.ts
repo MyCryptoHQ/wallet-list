@@ -120,8 +120,7 @@ import {
   zelcore,
   mewWallet,
   onto
-} from 'assets';
-
+} from './assets';
 import { WalletTypes, WalletConnectivity, WalletTags } from './types';
 import type { IWallet } from './types';
 
