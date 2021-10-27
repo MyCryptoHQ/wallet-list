@@ -101,7 +101,7 @@ export { default as loopringWallet } from './loopring_wallet.jpeg';
 export { default as mewWallet } from './mew_wallet.png';
 export { default as midasWallet } from './midas_wallet.jpeg';
 export { default as nash } from './nash.jpeg';
-export { default as o3wallet } from '/o3_wallet.jpeg';
+export { default as o3wallet } from './o3_wallet.jpeg';
 export { default as oneInch } from './one_inch.png';
 export { default as onto } from './onto.jpeg';
 export { default as ownbit } from './ownbit.jpeg';
