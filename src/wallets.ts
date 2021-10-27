@@ -6,11 +6,13 @@ import {
   trezor,
   metamask,
   coinbase,
+  coinbasePro,
   imtoken,
   trust,
   opera,
   alice,
   alphaWallet,
+  instaDapp,
   argent,
   atomic,
   authereum,
@@ -69,12 +71,76 @@ import {
   dexWallet,
   jWallet,
   multis,
-  scatter
-} from './assets';
+  scatter,
+  oneInch,
+  atWallet,
+  aTokenWallet,
+  bitKeep,
+  bitPay,
+  bridgeWallet,
+  celoWallet,
+  cmorq,
+  coin98,
+  coinus,
+  cryptoCom,
+  cybravo,
+  dcentWallet,
+  defiant,
+  dharma,
+  dokWallet,
+  easyPocket,
+  ellipal,
+  flareWallet,
+  haloDefi,
+  hashkeyMe,
+  jadeWallet,
+  keyringPro,
+  kyberSwap,
+  ledgerLive,
+  loopringWallet,
+  midasWallet,
+  nash,
+  o3wallet,
+  ownbit,
+  peakDefi,
+  plasmaPay,
+  quiverX,
+  rWallet,
+  sparkpoint,
+  talkenWallet,
+  tongueWallet,
+  trusteeWallet,
+  unstoppable,
+  valora,
+  viaWallet,
+  visionWallet,
+  walletIo,
+  walleth,
+  xinfin,
+  zelcore,
+  mewWallet,
+  onto
+} from 'assets';
+
 import { WalletTypes, WalletConnectivity, WalletTags } from './types';
 import type { IWallet } from './types';
 
 export const wallets: IWallet[] = [
+  {
+    name: 'MetaMask',
+    id: 'metamask',
+    icon: metamask,
+    desc: 'Metamask is a thing.',
+    type: WalletTypes.Wallet,
+    connectivity: WalletConnectivity.Web3,
+    tags: [WalletTags.Web, WalletTags.Mobile],
+    urls: {
+      website: 'https://metamask.io',
+      support: 'https://support.mycrypto.com/how-to/migrating/moving-from-mycrypto-to-metamask'
+    },
+    priority: 6,
+    mostPopular: true
+  },
   {
     name: 'Private Key',
     id: 'private-key',
@@ -141,20 +207,6 @@ export const wallets: IWallet[] = [
     priority: 4
   },
   {
-    name: 'MetaMask',
-    id: 'metamask',
-    icon: metamask,
-    desc: 'Metamask is a thing.',
-    type: WalletTypes.Wallet,
-    connectivity: WalletConnectivity.Web3,
-    tags: [WalletTags.Web, WalletTags.Mobile],
-    urls: {
-      website: 'https://metamask.io',
-      support: 'https://support.mycrypto.com/how-to/migrating/moving-from-mycrypto-to-metamask'
-    },
-    priority: 4
-  },
-  {
     name: 'Coinbase Wallet',
     id: 'coinbase-wallet',
     icon: coinbase,
@@ -206,6 +258,7 @@ export const wallets: IWallet[] = [
   {
     name: '1inch Wallet',
     id: '1inch-wallet',
+    icon: oneInch,
     desc: '',
     connectivity: WalletConnectivity.WalletConnect,
     urls: {
@@ -253,6 +306,7 @@ export const wallets: IWallet[] = [
   {
     name: 'AT.Wallet',
     id: 'at-wallet',
+    icon: atWallet,
     desc: '',
     connectivity: WalletConnectivity.WalletConnect,
     urls: {
@@ -263,6 +317,7 @@ export const wallets: IWallet[] = [
   {
     name: 'AToken Wallet',
     id: 'atoken-wallet',
+    icon: aTokenWallet,
     desc: '',
     connectivity: WalletConnectivity.WalletConnect,
     urls: {
@@ -297,6 +352,7 @@ export const wallets: IWallet[] = [
   {
     name: 'BitKeep',
     id: 'bitkeep',
+    icon: bitKeep,
     desc: '',
     type: WalletTypes.Wallet,
     connectivity: WalletConnectivity.WalletConnect,
@@ -308,6 +364,7 @@ export const wallets: IWallet[] = [
   {
     name: 'BitPay',
     id: 'bitpay',
+    icon: bitPay,
     desc: '',
     type: WalletTypes.Wallet,
     connectivity: WalletConnectivity.WalletConnect,
@@ -320,6 +377,7 @@ export const wallets: IWallet[] = [
   {
     name: 'Bridge Wallet',
     id: 'bridge-wallet',
+    icon: bridgeWallet,
     desc: '',
     type: WalletTypes.Wallet,
     connectivity: WalletConnectivity.WalletConnect,
@@ -332,6 +390,7 @@ export const wallets: IWallet[] = [
   {
     name: 'Celo Wallet',
     id: 'celo-wallet',
+    icon: celoWallet,
     desc: '',
     connectivity: WalletConnectivity.WalletConnect,
 
@@ -343,6 +402,7 @@ export const wallets: IWallet[] = [
   {
     name: 'cmorq',
     id: 'cmorq',
+    icon: cmorq,
     desc: '',
     connectivity: WalletConnectivity.WalletConnect,
 
@@ -354,6 +414,7 @@ export const wallets: IWallet[] = [
   {
     name: 'Coin98',
     id: 'coin98',
+    icon: coin98,
     desc: '',
     connectivity: WalletConnectivity.WalletConnect,
 
@@ -378,6 +439,7 @@ export const wallets: IWallet[] = [
   {
     name: 'CoinUs',
     id: 'coin-us',
+    icon: coinus,
     desc: '',
     type: WalletTypes.Interface,
     connectivity: WalletConnectivity.WalletConnect,
@@ -403,6 +465,7 @@ export const wallets: IWallet[] = [
   {
     name: 'Crypto.com',
     id: 'crypto-com',
+    icon: cryptoCom,
     desc: '',
     type: WalletTypes.Wallet,
     connectivity: WalletConnectivity.WalletConnect,
@@ -415,6 +478,7 @@ export const wallets: IWallet[] = [
   {
     name: 'Cybavo Wallet',
     id: 'cybavo-wallet',
+    icon: cybravo,
     desc: '',
     connectivity: WalletConnectivity.WalletConnect,
     urls: {
@@ -425,6 +489,7 @@ export const wallets: IWallet[] = [
   {
     name: "D'CENT Wallet",
     id: 'dcent-wallet',
+    icon: dcentWallet,
     desc: '',
     connectivity: WalletConnectivity.WalletConnect,
     urls: {
@@ -435,6 +500,7 @@ export const wallets: IWallet[] = [
   {
     name: 'Defiant',
     id: 'defiant',
+    icon: defiant,
     desc: '',
     connectivity: WalletConnectivity.WalletConnect,
     urls: {
@@ -445,6 +511,7 @@ export const wallets: IWallet[] = [
   {
     name: 'Dharma',
     id: 'dharma',
+    icon: dharma,
     desc: '',
     connectivity: WalletConnectivity.WalletConnect,
     urls: {
@@ -455,6 +522,7 @@ export const wallets: IWallet[] = [
   {
     name: 'Dok Wallet',
     id: 'dok-wallet',
+    icon: dokWallet,
     desc: '',
     connectivity: WalletConnectivity.WalletConnect,
     urls: {
@@ -465,6 +533,7 @@ export const wallets: IWallet[] = [
   {
     name: 'EasyPocket',
     id: 'easy-pocket',
+    icon: easyPocket,
     desc: '',
     connectivity: WalletConnectivity.WalletConnect,
     urls: {
@@ -486,6 +555,7 @@ export const wallets: IWallet[] = [
   {
     name: 'Ellipal',
     id: 'ellipal',
+    icon: ellipal,
     desc: '',
     connectivity: WalletConnectivity.WalletConnect,
     urls: {
@@ -508,6 +578,7 @@ export const wallets: IWallet[] = [
   {
     name: 'Flare Wallet',
     id: 'flare-wallet',
+    icon: flareWallet,
     desc: '',
     connectivity: WalletConnectivity.WalletConnect,
     urls: {
@@ -553,6 +624,7 @@ export const wallets: IWallet[] = [
   {
     name: 'HaloDeFi Wallet',
     id: 'halodefi-wallet',
+    icon: haloDefi,
     desc: '',
     type: WalletTypes.Exchange,
     connectivity: WalletConnectivity.WalletConnect,
@@ -564,6 +636,7 @@ export const wallets: IWallet[] = [
   {
     name: 'HashKey Me',
     id: 'hashkey-me',
+    icon: hashkeyMe,
     desc: '',
     type: WalletTypes.Exchange,
     connectivity: WalletConnectivity.WalletConnect,
@@ -601,6 +674,7 @@ export const wallets: IWallet[] = [
   {
     name: 'Jade Wallet',
     id: 'jade-wallet',
+    icon: jadeWallet,
     desc: '',
     type: WalletTypes.Interface,
     connectivity: WalletConnectivity.WalletConnect,
@@ -613,6 +687,7 @@ export const wallets: IWallet[] = [
   {
     name: 'KEYRING PRO',
     id: 'keyring-pro',
+    icon: keyringPro,
     desc: '',
     type: WalletTypes.Wallet,
     connectivity: WalletConnectivity.WalletConnect,
@@ -624,6 +699,7 @@ export const wallets: IWallet[] = [
   {
     name: 'KyberSwap',
     id: 'kyber-swap',
+    icon: kyberSwap,
     desc: '',
     type: WalletTypes.Wallet,
     connectivity: WalletConnectivity.WalletConnect,
@@ -636,6 +712,7 @@ export const wallets: IWallet[] = [
   {
     name: 'Ledger Live',
     id: 'ledger-live',
+    icon: ledgerLive,
     desc: '',
     type: WalletTypes.Wallet,
     connectivity: WalletConnectivity.WalletConnect,
@@ -648,6 +725,7 @@ export const wallets: IWallet[] = [
   {
     name: 'Loopring Wallet',
     id: 'loopring-wallet',
+    icon: loopringWallet,
     desc: '',
     type: WalletTypes.Wallet,
     connectivity: WalletConnectivity.WalletConnect,
@@ -671,21 +749,9 @@ export const wallets: IWallet[] = [
     priority: 1
   },
   {
-    name: 'MetaMask',
-    id: 'metamask',
-    icon: metamask,
-    desc: '',
-    type: WalletTypes.Wallet,
-    connectivity: WalletConnectivity.WalletConnect,
-    urls: {
-      website: 'https://metamask.io/'
-    },
-    priority: 4,
-    mostPopular: true
-  },
-  {
     name: 'Midas Wallet',
     id: 'midas-wallet',
+    icon: midasWallet,
     desc: '',
     type: WalletTypes.Wallet,
     connectivity: WalletConnectivity.WalletConnect,
@@ -710,6 +776,7 @@ export const wallets: IWallet[] = [
   {
     name: 'Nash',
     id: 'nash',
+    icon: nash,
     desc: '',
     connectivity: WalletConnectivity.WalletConnect,
     tags: [WalletTags.WalletConnect],
@@ -721,6 +788,7 @@ export const wallets: IWallet[] = [
   {
     name: 'O3Wallet',
     id: 'o3wallet',
+    icon: o3wallet,
     desc: '',
     connectivity: WalletConnectivity.WalletConnect,
 
@@ -732,6 +800,7 @@ export const wallets: IWallet[] = [
   {
     name: 'ONTO',
     id: 'onto',
+    icon: onto,
     desc: '',
     type: WalletTypes.Wallet,
     connectivity: WalletConnectivity.WalletConnect,
@@ -744,6 +813,7 @@ export const wallets: IWallet[] = [
   {
     name: 'Ownbit',
     id: 'ownbit',
+    icon: ownbit,
     desc: '',
     type: WalletTypes.Wallet,
     connectivity: WalletConnectivity.WalletConnect,
@@ -756,6 +826,7 @@ export const wallets: IWallet[] = [
   {
     name: 'PEAKDEFI Wallet',
     id: 'peakdefi-wallet',
+    icon: peakDefi,
     desc: '',
     type: WalletTypes.Wallet,
     connectivity: WalletConnectivity.WalletConnect,
@@ -781,6 +852,7 @@ export const wallets: IWallet[] = [
   {
     name: 'PlasmaPay',
     id: 'plasmapay',
+    icon: plasmaPay,
     desc: '',
     type: WalletTypes.Wallet,
     connectivity: WalletConnectivity.WalletConnect,
@@ -793,6 +865,7 @@ export const wallets: IWallet[] = [
   {
     name: 'QuiverX',
     id: 'quiverx',
+    icon: quiverX,
     desc: '',
     type: WalletTypes.Wallet,
     connectivity: WalletConnectivity.WalletConnect,
@@ -818,6 +891,7 @@ export const wallets: IWallet[] = [
   {
     name: 'RWallet',
     id: 'rwallet',
+    icon: rWallet,
     desc: '',
     type: WalletTypes.Wallet,
     connectivity: WalletConnectivity.WalletConnect,
@@ -843,6 +917,7 @@ export const wallets: IWallet[] = [
   {
     name: 'SparkPoint',
     id: 'sparkpoint',
+    icon: sparkpoint,
     desc: '',
     type: WalletTypes.Wallet,
     connectivity: WalletConnectivity.WalletConnect,
@@ -868,6 +943,7 @@ export const wallets: IWallet[] = [
   {
     name: 'Talken Wallet',
     id: 'talken-wallet',
+    icon: talkenWallet,
     desc: '',
     type: WalletTypes.Wallet,
     connectivity: WalletConnectivity.WalletConnect,
@@ -906,6 +982,7 @@ export const wallets: IWallet[] = [
   {
     name: 'Tongue Wallet',
     id: 'tongue-wallet',
+    icon: tongueWallet,
     desc: '',
     type: WalletTypes.Wallet,
     connectivity: WalletConnectivity.WalletConnect,
@@ -931,6 +1008,7 @@ export const wallets: IWallet[] = [
   {
     name: 'Trustee Wallet',
     id: 'trustee-wallet',
+    icon: trusteeWallet,
     desc: '',
     type: WalletTypes.Wallet,
     connectivity: WalletConnectivity.WalletConnect,
@@ -956,6 +1034,7 @@ export const wallets: IWallet[] = [
   {
     name: 'Unstoppable Wallet',
     id: 'unstoppable-wallet',
+    icon: unstoppable,
     desc: '',
     type: WalletTypes.Wallet,
     connectivity: WalletConnectivity.WalletConnect,
@@ -968,6 +1047,7 @@ export const wallets: IWallet[] = [
   {
     name: 'Valora',
     id: 'valora',
+    icon: valora,
     desc: '',
     type: WalletTypes.Wallet,
     connectivity: WalletConnectivity.WalletConnect,
@@ -980,6 +1060,7 @@ export const wallets: IWallet[] = [
   {
     name: 'ViaWallet',
     id: 'viawallet',
+    icon: viaWallet,
     desc: '',
     type: WalletTypes.Wallet,
     connectivity: WalletConnectivity.WalletConnect,
@@ -992,6 +1073,7 @@ export const wallets: IWallet[] = [
   {
     name: 'Vision',
     id: 'vision',
+    icon: visionWallet,
     desc: '',
     type: WalletTypes.Wallet,
     connectivity: WalletConnectivity.WalletConnect,
@@ -1004,6 +1086,7 @@ export const wallets: IWallet[] = [
   {
     name: 'wallet.io',
     id: 'walletio',
+    icon: walletIo,
     desc: '',
     type: WalletTypes.Wallet,
     connectivity: WalletConnectivity.WalletConnect,
@@ -1029,6 +1112,7 @@ export const wallets: IWallet[] = [
   {
     name: 'Walleth',
     id: 'walleth',
+    icon: walleth,
     desc: '',
     type: WalletTypes.Wallet,
     connectivity: WalletConnectivity.WalletConnect,
@@ -1041,6 +1125,7 @@ export const wallets: IWallet[] = [
   {
     name: 'XinFin XDC Network',
     id: 'xinfin',
+    icon: xinfin,
     desc: '',
     type: WalletTypes.Wallet,
     connectivity: WalletConnectivity.WalletConnect,
@@ -1053,6 +1138,7 @@ export const wallets: IWallet[] = [
   {
     name: 'ZelCore',
     id: 'zelcore',
+    icon: zelcore,
     desc: '',
     type: WalletTypes.Wallet,
     connectivity: WalletConnectivity.WalletConnect,
@@ -1088,6 +1174,7 @@ export const wallets: IWallet[] = [
   {
     name: 'InstaDapp',
     id: 'instadapp',
+    icon: instaDapp,
     desc: '',
     connectivity: WalletConnectivity.Interface,
     urls: {
@@ -1133,6 +1220,7 @@ export const wallets: IWallet[] = [
     name: 'Coinbase Pro',
     id: 'coinbase-pro',
     desc: '',
+    icon: coinbasePro,
     connectivity: WalletConnectivity.MigrateCustodial,
     tags: [WalletTags.Exchange],
     urls: {
@@ -1302,6 +1390,7 @@ export const wallets: IWallet[] = [
   {
     name: 'MEW Wallet',
     id: 'mew-wallet',
+    icon: mewWallet,
     desc: '',
     connectivity: WalletConnectivity.MigrateNonCustodial,
     tags: [WalletTags.Mobile],
@@ -1624,6 +1713,7 @@ export const wallets: IWallet[] = [
   {
     name: 'Status',
     id: 'status',
+    icon: status,
     desc: '',
     connectivity: WalletConnectivity.ViewOnly,
     tags: [WalletTags.Mobile, WalletTags.Desktop],
