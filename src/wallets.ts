@@ -119,6 +119,7 @@ import {
   xinfin,
   zelcore,
   mewWallet,
+  status,
   onto
 } from './assets';
 import { WalletTypes, WalletConnectivity, WalletTags } from './types';
