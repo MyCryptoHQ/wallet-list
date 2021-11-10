@@ -1098,7 +1098,7 @@ export const wallets: IWallet[] = [
   },
   {
     name: WalletTags.WalletConnect,
-    id: 'walletconnect',
+    id: 'wallet-connect',
     icon: walletConnect,
     desc: '',
     type: WalletTypes.Wallet,
