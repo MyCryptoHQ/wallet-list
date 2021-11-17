@@ -284,6 +284,7 @@ export const wallets: IWallet[] = [
     desc: '',
     icon: alphaWallet,
     type: WalletTypes.Wallet,
+    tags: [WalletTags.WalletConnect],
     connectivity: WalletConnectivity.WalletConnect,
     urls: {
       website: 'https://alphawallet.com/'
@@ -308,6 +309,7 @@ export const wallets: IWallet[] = [
     id: 'at-wallet',
     icon: atWallet,
     desc: '',
+    tags: [WalletTags.WalletConnect],
     connectivity: WalletConnectivity.WalletConnect,
     urls: {
       website: 'https://authentrend.com/at-wallet/'
@@ -320,6 +322,7 @@ export const wallets: IWallet[] = [
     icon: aTokenWallet,
     desc: '',
     connectivity: WalletConnectivity.WalletConnect,
+    tags: [WalletTags.WalletConnect],
     urls: {
       website: 'https://atoken.com'
     },
@@ -343,6 +346,7 @@ export const wallets: IWallet[] = [
     icon: authereum,
     desc: '',
     type: WalletTypes.Wallet,
+    tags: [WalletTags.WalletConnect],
     connectivity: WalletConnectivity.WalletConnect,
     urls: {
       website: 'https://authereum.org'
@@ -355,6 +359,7 @@ export const wallets: IWallet[] = [
     icon: bitKeep,
     desc: '',
     type: WalletTypes.Wallet,
+    tags: [WalletTags.WalletConnect],
     connectivity: WalletConnectivity.WalletConnect,
     urls: {
       website: 'https://bitkeep.com/'
@@ -367,6 +372,7 @@ export const wallets: IWallet[] = [
     icon: bitPay,
     desc: '',
     type: WalletTypes.Wallet,
+    tags: [WalletTags.WalletConnect],
     connectivity: WalletConnectivity.WalletConnect,
 
     urls: {
@@ -380,6 +386,7 @@ export const wallets: IWallet[] = [
     icon: bridgeWallet,
     desc: '',
     type: WalletTypes.Wallet,
+    tags: [WalletTags.WalletConnect],
     connectivity: WalletConnectivity.WalletConnect,
 
     urls: {
@@ -392,6 +399,7 @@ export const wallets: IWallet[] = [
     id: 'celo-wallet',
     icon: celoWallet,
     desc: '',
+    tags: [WalletTags.WalletConnect],
     connectivity: WalletConnectivity.WalletConnect,
 
     urls: {
@@ -404,6 +412,7 @@ export const wallets: IWallet[] = [
     id: 'cmorq',
     icon: cmorq,
     desc: '',
+    tags: [WalletTags.WalletConnect],
     connectivity: WalletConnectivity.WalletConnect,
 
     urls: {
@@ -415,6 +424,7 @@ export const wallets: IWallet[] = [
     name: 'Coin98',
     id: 'coin98',
     icon: coin98,
+    tags: [WalletTags.WalletConnect],
     desc: '',
     connectivity: WalletConnectivity.WalletConnect,
 
@@ -442,6 +452,7 @@ export const wallets: IWallet[] = [
     icon: coinus,
     desc: '',
     type: WalletTypes.Interface,
+    tags: [WalletTags.WalletConnect],
     connectivity: WalletConnectivity.WalletConnect,
 
     urls: {
@@ -480,6 +491,7 @@ export const wallets: IWallet[] = [
     id: 'cybavo-wallet',
     icon: cybravo,
     desc: '',
+    tags: [WalletTags.WalletConnect],
     connectivity: WalletConnectivity.WalletConnect,
     urls: {
       website: 'https://cybavo.com/'
@@ -492,6 +504,7 @@ export const wallets: IWallet[] = [
     icon: dcentWallet,
     desc: '',
     connectivity: WalletConnectivity.WalletConnect,
+    tags: [WalletTags.WalletConnect],
     urls: {
       website: 'https://dcentwallet.com'
     },
@@ -503,6 +516,7 @@ export const wallets: IWallet[] = [
     icon: defiant,
     desc: '',
     connectivity: WalletConnectivity.WalletConnect,
+    tags: [WalletTags.WalletConnect],
     urls: {
       website: 'https://defiantapp.tech/'
     },
@@ -514,6 +528,7 @@ export const wallets: IWallet[] = [
     icon: dharma,
     desc: '',
     connectivity: WalletConnectivity.WalletConnect,
+    tags: [WalletTags.WalletConnect],
     urls: {
       website: 'https://www.dharma.io/'
     },
@@ -525,6 +540,7 @@ export const wallets: IWallet[] = [
     icon: dokWallet,
     desc: '',
     connectivity: WalletConnectivity.WalletConnect,
+    tags: [WalletTags.WalletConnect],
     urls: {
       website: 'https://dokwallet.com/'
     },
@@ -536,6 +552,7 @@ export const wallets: IWallet[] = [
     icon: easyPocket,
     desc: '',
     connectivity: WalletConnectivity.WalletConnect,
+    tags: [WalletTags.WalletConnect],
     urls: {
       website: 'https://easypocket.app/'
     },
@@ -547,6 +564,7 @@ export const wallets: IWallet[] = [
     icon: eidoo,
     desc: '',
     connectivity: WalletConnectivity.WalletConnect,
+    tags: [WalletTags.WalletConnect],
     urls: {
       website: 'https://eidoo.io/'
     },
@@ -558,6 +576,7 @@ export const wallets: IWallet[] = [
     icon: ellipal,
     desc: '',
     connectivity: WalletConnectivity.WalletConnect,
+    tags: [WalletTags.WalletConnect],
     urls: {
       website: 'https://ellipal.com/'
     },
@@ -581,6 +600,7 @@ export const wallets: IWallet[] = [
     icon: flareWallet,
     desc: '',
     connectivity: WalletConnectivity.WalletConnect,
+    tags: [WalletTags.WalletConnect],
     urls: {
       website: 'https://flarewallet.io'
     },
@@ -616,6 +636,7 @@ export const wallets: IWallet[] = [
     icon: guarda,
     desc: '',
     connectivity: WalletConnectivity.WalletConnect,
+    tags: [WalletTags.WalletConnect],
     urls: {
       website: 'https://guarda.com/'
     },
@@ -628,6 +649,7 @@ export const wallets: IWallet[] = [
     desc: '',
     type: WalletTypes.Exchange,
     connectivity: WalletConnectivity.WalletConnect,
+    tags: [WalletTags.WalletConnect],
     urls: {
       website: 'https://halodefi.org/'
     },
@@ -640,7 +662,7 @@ export const wallets: IWallet[] = [
     desc: '',
     type: WalletTypes.Exchange,
     connectivity: WalletConnectivity.WalletConnect,
-
+    tags: [WalletTags.WalletConnect],
     urls: {
       website: 'https://me.hashkey.com/'
     },
@@ -653,7 +675,7 @@ export const wallets: IWallet[] = [
     desc: '',
     type: WalletTypes.Exchange,
     connectivity: WalletConnectivity.WalletConnect,
-
+    tags: [WalletTags.WalletConnect],
     urls: {
       website: 'https://huobiwallet.com/'
     },
@@ -678,7 +700,7 @@ export const wallets: IWallet[] = [
     desc: '',
     type: WalletTypes.Interface,
     connectivity: WalletConnectivity.WalletConnect,
-
+    tags: [WalletTags.WalletConnect],
     urls: {
       website: 'https://jadewallet.io/'
     },
@@ -691,6 +713,7 @@ export const wallets: IWallet[] = [
     desc: '',
     type: WalletTypes.Wallet,
     connectivity: WalletConnectivity.WalletConnect,
+    tags: [WalletTags.WalletConnect],
     urls: {
       website: 'https://keyring.app/'
     },
@@ -716,7 +739,7 @@ export const wallets: IWallet[] = [
     desc: '',
     type: WalletTypes.Wallet,
     connectivity: WalletConnectivity.WalletConnect,
-
+    tags: [WalletTags.WalletConnect],
     urls: {
       website: 'https://www.ledger.com/'
     },
@@ -729,7 +752,7 @@ export const wallets: IWallet[] = [
     desc: '',
     type: WalletTypes.Wallet,
     connectivity: WalletConnectivity.WalletConnect,
-
+    tags: [WalletTags.WalletConnect],
     urls: {
       website: 'https://loopring.io'
     },
@@ -755,6 +778,7 @@ export const wallets: IWallet[] = [
     desc: '',
     type: WalletTypes.Wallet,
     connectivity: WalletConnectivity.WalletConnect,
+    tags: [WalletTags.WalletConnect],
     urls: {
       website: 'https://midasprotocol.io/'
     },
@@ -791,7 +815,7 @@ export const wallets: IWallet[] = [
     icon: o3wallet,
     desc: '',
     connectivity: WalletConnectivity.WalletConnect,
-
+    tags: [WalletTags.WalletConnect],
     urls: {
       website: 'https://o3.network'
     },
@@ -804,7 +828,7 @@ export const wallets: IWallet[] = [
     desc: '',
     type: WalletTypes.Wallet,
     connectivity: WalletConnectivity.WalletConnect,
-
+    tags: [WalletTags.WalletConnect],
     urls: {
       website: 'https://onto.app/'
     },
@@ -817,7 +841,7 @@ export const wallets: IWallet[] = [
     desc: '',
     type: WalletTypes.Wallet,
     connectivity: WalletConnectivity.WalletConnect,
-
+    tags: [WalletTags.WalletConnect],
     urls: {
       website: 'https://ownbit.io/'
     },
@@ -830,7 +854,7 @@ export const wallets: IWallet[] = [
     desc: '',
     type: WalletTypes.Wallet,
     connectivity: WalletConnectivity.WalletConnect,
-
+    tags: [WalletTags.WalletConnect],
     urls: {
       website: 'https://peakdefi.com/'
     },
@@ -856,7 +880,7 @@ export const wallets: IWallet[] = [
     desc: '',
     type: WalletTypes.Wallet,
     connectivity: WalletConnectivity.WalletConnect,
-
+    tags: [WalletTags.WalletConnect],
     urls: {
       website: 'https://plasmapay.com/'
     },
@@ -869,7 +893,7 @@ export const wallets: IWallet[] = [
     desc: '',
     type: WalletTypes.Wallet,
     connectivity: WalletConnectivity.WalletConnect,
-
+    tags: [WalletTags.WalletConnect],
     urls: {
       website: 'https://quiverx.io'
     },
@@ -895,7 +919,7 @@ export const wallets: IWallet[] = [
     desc: '',
     type: WalletTypes.Wallet,
     connectivity: WalletConnectivity.WalletConnect,
-
+    tags: [WalletTags.WalletConnect],
     urls: {
       website: 'https://rsk.co/'
     },
@@ -921,7 +945,7 @@ export const wallets: IWallet[] = [
     desc: '',
     type: WalletTypes.Wallet,
     connectivity: WalletConnectivity.WalletConnect,
-
+    tags: [WalletTags.WalletConnect],
     urls: {
       website: 'https://sparkpoint.io/'
     },
@@ -947,7 +971,7 @@ export const wallets: IWallet[] = [
     desc: '',
     type: WalletTypes.Wallet,
     connectivity: WalletConnectivity.WalletConnect,
-
+    tags: [WalletTags.WalletConnect],
     urls: {
       website: 'https://talken.io'
     },
@@ -986,7 +1010,7 @@ export const wallets: IWallet[] = [
     desc: '',
     type: WalletTypes.Wallet,
     connectivity: WalletConnectivity.WalletConnect,
-
+    tags: [WalletTags.WalletConnect],
     urls: {
       website: 'https://www.tongue.fi'
     },
@@ -999,7 +1023,7 @@ export const wallets: IWallet[] = [
     desc: '',
     type: WalletTypes.Wallet,
     connectivity: WalletConnectivity.WalletConnect,
-
+    tags: [WalletTags.WalletConnect],
     urls: {
       website: 'https://toruswallet.io/'
     },
@@ -1012,7 +1036,7 @@ export const wallets: IWallet[] = [
     desc: '',
     type: WalletTypes.Wallet,
     connectivity: WalletConnectivity.WalletConnect,
-
+    tags: [WalletTags.WalletConnect],
     urls: {
       website: 'https://trusteeglobal.com/'
     },
@@ -1025,7 +1049,7 @@ export const wallets: IWallet[] = [
     desc: '',
     type: WalletTypes.Wallet,
     connectivity: WalletConnectivity.WalletConnect,
-
+    tags: [WalletTags.WalletConnect],
     urls: {
       website: 'https://trustology.io/'
     },
@@ -1038,7 +1062,7 @@ export const wallets: IWallet[] = [
     desc: '',
     type: WalletTypes.Wallet,
     connectivity: WalletConnectivity.WalletConnect,
-
+    tags: [WalletTags.WalletConnect],
     urls: {
       website: 'https://unstoppable.money/'
     },
@@ -1051,7 +1075,7 @@ export const wallets: IWallet[] = [
     desc: '',
     type: WalletTypes.Wallet,
     connectivity: WalletConnectivity.WalletConnect,
-
+    tags: [WalletTags.WalletConnect],
     urls: {
       website: 'https://valoraapp.com'
     },
@@ -1064,7 +1088,7 @@ export const wallets: IWallet[] = [
     desc: '',
     type: WalletTypes.Wallet,
     connectivity: WalletConnectivity.WalletConnect,
-
+    tags: [WalletTags.WalletConnect],
     urls: {
       website: 'https://viawallet.com/'
     },
@@ -1077,7 +1101,7 @@ export const wallets: IWallet[] = [
     desc: '',
     type: WalletTypes.Wallet,
     connectivity: WalletConnectivity.WalletConnect,
-
+    tags: [WalletTags.WalletConnect],
     urls: {
       website: 'https://vision-crypto.com/'
     },
@@ -1090,7 +1114,7 @@ export const wallets: IWallet[] = [
     desc: '',
     type: WalletTypes.Wallet,
     connectivity: WalletConnectivity.WalletConnect,
-
+    tags: [WalletTags.WalletConnect],
     urls: {
       website: 'https://wallet.io/'
     },
@@ -1103,7 +1127,7 @@ export const wallets: IWallet[] = [
     desc: '',
     type: WalletTypes.Wallet,
     connectivity: WalletConnectivity.WalletConnect,
-    tags: [WalletTags.Mobile],
+    tags: [WalletTags.Mobile, WalletTags.WalletConnect],
     urls: {
       website: 'https://walletconnect.org'
     },
@@ -1116,7 +1140,7 @@ export const wallets: IWallet[] = [
     desc: '',
     type: WalletTypes.Wallet,
     connectivity: WalletConnectivity.WalletConnect,
-
+    tags: [WalletTags.WalletConnect],
     urls: {
       website: 'https://walleth.org/'
     },
@@ -1129,7 +1153,7 @@ export const wallets: IWallet[] = [
     desc: '',
     type: WalletTypes.Wallet,
     connectivity: WalletConnectivity.WalletConnect,
-
+    tags: [WalletTags.WalletConnect],
     urls: {
       website: 'https://www.xinfin.io/'
     },
@@ -1142,7 +1166,7 @@ export const wallets: IWallet[] = [
     desc: '',
     type: WalletTypes.Wallet,
     connectivity: WalletConnectivity.WalletConnect,
-
+    tags: [WalletTags.WalletConnect],
     urls: {
       website: 'https://zel.network'
     },
@@ -1154,7 +1178,7 @@ export const wallets: IWallet[] = [
     icon: myEtherWallet,
     desc: '',
     connectivity: WalletConnectivity.Interface,
-
+    tags: [WalletTags.Other],
     urls: {
       website: 'https://myetherwallet.com'
     },
@@ -1166,6 +1190,7 @@ export const wallets: IWallet[] = [
     icon: zerion,
     desc: '',
     connectivity: WalletConnectivity.Interface,
+    tags: [WalletTags.Other],
     urls: {
       website: 'https://zerion.io'
     },
@@ -1177,6 +1202,7 @@ export const wallets: IWallet[] = [
     icon: instaDapp,
     desc: '',
     connectivity: WalletConnectivity.Interface,
+    tags: [WalletTags.Other],
     urls: {
       website: 'https://instadapp.io'
     },
@@ -1188,6 +1214,7 @@ export const wallets: IWallet[] = [
     icon: zapper,
     desc: '',
     connectivity: WalletConnectivity.Interface,
+    tags: [WalletTags.Other],
     urls: {
       website: 'https://zapper.fi'
     },
@@ -1199,6 +1226,7 @@ export const wallets: IWallet[] = [
     icon: defiSaver,
     desc: '',
     connectivity: WalletConnectivity.Interface,
+    tags: [WalletTags.Other],
     urls: {
       website: 'https://defisaver.com'
     },
@@ -1230,7 +1258,7 @@ export const wallets: IWallet[] = [
   },
   {
     name: 'Coinbase.com',
-    id: 'coinbase.com',
+    id: 'coinbase',
     icon: coinbase,
     desc: '',
     connectivity: WalletConnectivity.MigrateCustodial,
@@ -1405,7 +1433,7 @@ export const wallets: IWallet[] = [
     icon: walletLink,
     desc: '',
     connectivity: WalletConnectivity.MigrateNonCustodial,
-    tags: [WalletTags.Bridge],
+    tags: [WalletTags.Mobile, WalletTags.Other],
     urls: {
       website: 'https://walletlink.org'
     },
@@ -1418,7 +1446,7 @@ export const wallets: IWallet[] = [
     icon: portis,
     desc: '',
     connectivity: WalletConnectivity.ViewOnly,
-    tags: [WalletTags.Wallet],
+    tags: [WalletTags.Web, WalletTags.Other],
     urls: {
       website: 'https://portis.io'
     },
@@ -1430,7 +1458,7 @@ export const wallets: IWallet[] = [
     icon: fortmatic,
     desc: '',
     connectivity: WalletConnectivity.ViewOnly,
-    tags: [WalletTags.Wallet],
+    tags: [WalletTags.Web, WalletTags.Other],
     urls: {
       website: 'https://fortmatic.com'
     },
@@ -1442,7 +1470,7 @@ export const wallets: IWallet[] = [
     icon: authereum,
     desc: '',
     connectivity: WalletConnectivity.ViewOnly,
-    tags: [WalletTags.Wallet],
+    tags: [WalletTags.Web, WalletTags.Other],
     urls: {
       website: 'https://authereum.com'
     },
@@ -1530,7 +1558,7 @@ export const wallets: IWallet[] = [
     desc: '',
     type: WalletTypes.Exchange,
     connectivity: WalletConnectivity.ViewOnly,
-    tags: [WalletTags.BrowserBased, WalletTags.Mobile],
+    tags: [WalletTags.Web, WalletTags.Mobile],
     urls: {
       website: 'https://guarda.com'
     },
@@ -1619,7 +1647,7 @@ export const wallets: IWallet[] = [
     icon: buttonWallet,
     desc: '',
     connectivity: WalletConnectivity.ViewOnly,
-    tags: [WalletTags.Telegram],
+    tags: [WalletTags.Mobile],
     urls: {
       website: 'https://buttonwallet.com'
     },
@@ -1692,7 +1720,7 @@ export const wallets: IWallet[] = [
     icon: multis,
     desc: '',
     connectivity: WalletConnectivity.ViewOnly,
-    tags: [WalletTags.Web3, WalletTags.Enterprise],
+    tags: [WalletTags.Web],
     urls: {
       website: 'https://multis.co'
     },

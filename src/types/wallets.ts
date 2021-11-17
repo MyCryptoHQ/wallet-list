@@ -19,16 +19,11 @@ export enum WalletTypes {
 export enum WalletTags {
   Hardware = 'Hardware',
   Web = 'Web',
-  Web3 = 'Web3',
-  Enterprise = 'Enterprise',
-  Telegram = 'Telegram',
-  BrowserBased = 'Browser Based',
   Mobile = 'Mobile',
   Desktop = 'Desktop',
   Exchange = 'Exchange',
-  Wallet = 'Wallet',
   WalletConnect = 'Wallet Connect',
-  Bridge = 'Bridge'
+  Other = 'Other'
 }
 
 export interface IWallet {
