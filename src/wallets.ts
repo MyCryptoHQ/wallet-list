@@ -147,6 +147,7 @@ export const wallets: IWallet[] = [
     icon: privateKey,
     desc: '',
     type: WalletTypes.Wallet,
+    tags: [WalletTags.Quill],
     connectivity: WalletConnectivity.MyCrypto,
     urls: {},
     priority: 5
@@ -157,6 +158,7 @@ export const wallets: IWallet[] = [
     icon: keystoreFile,
     desc: '',
     type: WalletTypes.Wallet,
+    tags: [WalletTags.Quill],
     connectivity: WalletConnectivity.MyCrypto,
     urls: {
       support:
@@ -170,6 +172,7 @@ export const wallets: IWallet[] = [
     icon: mnemonicPhrase,
     desc: '',
     type: WalletTypes.Wallet,
+    tags: [WalletTags.Quill],
     connectivity: WalletConnectivity.MyCrypto,
 
     urls: {

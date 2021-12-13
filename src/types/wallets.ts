@@ -23,7 +23,8 @@ export enum WalletTags {
   Desktop = 'Desktop',
   Exchange = 'Exchange',
   WalletConnect = 'Wallet Connect',
-  Other = 'Other'
+  Other = 'Other',
+  Quill = 'Quill'
 }
 
 export interface IWallet {
